@@ -24,3 +24,22 @@ To come:
 
 
 Note: use v 8.3.11 of LVGL, code will not compile with later versions
+
+Hardware needed:
+
+Main display: 
+
+<img width="1072" height="496" alt="Screenshot 2026-07-01 201705" src="https://github.com/user-attachments/assets/0411e0dd-4b9f-40a4-8f70-ee255b5a5e6d" />
+
+Auxillary Display:
+
+<img width="1149" height="586" alt="Screenshot 2026-07-01 201832" src="https://github.com/user-attachments/assets/80100445-eb89-4935-8037-816b0cb65c32" />
+
+HUD:
+
+<img width="1150" height="519" alt="Screenshot 2026-07-01 202048" src="https://github.com/user-attachments/assets/9d4c317e-3906-4610-a1ae-a075077739af" />
+
+<img width="1076" height="504" alt="Screenshot 2026-07-01 201946" src="https://github.com/user-attachments/assets/d91c5d64-450e-403a-92cf-6afa33c5f8b1" />
+
+<img width="1145" height="534" alt="Screenshot 2026-07-01 202142" src="https://github.com/user-attachments/assets/5274445c-a1e2-4446-8c77-7b8b46851932" />
+
