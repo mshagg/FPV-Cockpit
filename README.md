@@ -19,3 +19,6 @@ To come:
 - Detailed wiring insturctions in english
 - Alternative cockpit screen layouts
 - Template for mounting main OLED for adaptation to other models
+
+
+Note: use v 8.3.11 of LVGL, code will not compile with later versions
