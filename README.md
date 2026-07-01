@@ -1,4 +1,6 @@
 This is a fork of the UAV cockpit design by mason334
+
+<img width="1536" height="2040" alt="PXL_20260701_104142952 PORTRAIT" src="https://github.com/user-attachments/assets/95ad420e-708c-4a3b-93be-fa641528a1f3" />
   
 Main changes:
 
