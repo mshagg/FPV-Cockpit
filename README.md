@@ -1,49 +1,21 @@
-# ​​无人机FPV仿真座舱开源项目​
-## 项目起源​  
-**释放你对天空的想象,用开源技术解锁更加真实的飞行体验​**
-
-- 这是一套​​低成本、高拟真度的FPV仿真座舱系统​​。
-
-- 将抽象的飞行数据转化为直观的视觉交互——无论是操控无人机穿越峡谷，还是模拟民航机巡航云端，这套系统都能让你以​​飞行员的视角​​，重新定义与天空的对话。
-
-- 通过将工业级飞行数据交互技术（Mavlink）与沉浸式视觉渲染结合，我们让消费级无人机也能还原真实飞机的驾驶舱交互——从仪表反馈到HUD动态投影，每一处细节都让用户无限接近真实飞行体验。
-
-- 这不是一个成品，而是一套飞行交互的“乐高”：用开源代码、ESP32开发板、OLED显示器和3D模型，打造沉浸式FPV飞行体验。
+This is a fork of the UAV cockpit design by mason334
   
-[![Watch the video](https://github.com/mason334/images/blob/main/%E5%B9%B3%E9%A3%9E.png)](https://youtu.be/EGba6gP0AzU)
+Main changes:
 
-![驾驶舱](https://raw.githubusercontent.com/mason334/images/refs/heads/main/control_panel_j10c.jpeg)
+- Beluga cockpit redesign.
+   - Original design by mason334 occupied all of the battery area
+   - Added fixtured for printers where larger parts need to be split and assembled post print
+   - Increased space on top of dashboard for more room to fit HUD OLED
+- Removed lower screen.  Limited functionality for INAV and incurred on battery area.  Relevant sections of code removed.
+- Code optimisation
+   - Converted chinese characters to english
+   - Reduced amount of trigonometry to improve performance
+   - Changed to built in fonts to improve performance
+   - Tidied up HUD to make more clear
 
+To come:
 
-
-## 项目特点
-**1. 核心技术​​**
-  - ​​真机数据同步​​：基于Mavlink协议毫秒级解析20+项飞行参数（姿态角、空速、G力等），支持Pixhawk/Ardupilot/INAV等主流飞控；
-  - 超低延迟架构​​：ESP32定制固件，支持双核运行，实现姿态仪画面45+FPS流畅渲染，超低端到端延迟，数据响应媲美民航训练设备。
-
-**2. 视觉仿真​​**
-- ​​OLED智能面板​​：
-  + 动态飞行姿态仪+可定制仪表布局，用户可自由配置数据字段（如增删节流阀显示、卫星状态、火控雷达告警模拟、编队友机位置雷达等等）；
-  + 环境亮度适应​​，可根据用户需求调节亮度，烈日下依然清晰可见，低光照条件不过曝。
-  + 控制面板仪表图层开源可编程，开发者可导入自定义告警逻辑（如失速预警红色闪烁）。
-- HUD全息投影​​：
-  + 战机风格平视显示系统，支持姿态仪投影，以及投射关键飞行参数（超低空告警、攻角、爬升率）等，动态聚焦关键数据；
-  + 飞行数高清晰度展示，缩短反应时间，提高飞行员的态势感知能力，增强复杂环境下飞行能力
-- 真实比例复刻
-  + 基于激光LIDAR扫描与航空图纸逆向建模，尽可能还原真实座舱结构，飞行摇杆、踏板、节流阀、舱盖等都一一呈现。
-  + 支持用户导入自定义座舱模型，利用OLED智能面板和HUD全息投影模块，打造自己的FPV座舱
-  
-**​​3. 开源生态​​**
-- ​​开源座舱3D模型库​​：
-  + 提供仿真座舱结构、航电面板、HUD支架等模块化模型（STEP格式），支持3D打印/CNC加工；
-  + 已发布、迭代多个版本中国歼20座舱模型、中国歼10座舱模型、美国F35座舱模型
-  + 社区已衍生出民航、滑翔机、战斗机风格等多种主题自定义模型。
-- ​​创客友好​​：
-  + 所有代码/设计文件遵循MIT协议，支持二次开发（如用Raspberry Pi替换ESP32）。
-
-## 项目说明文档
-
-项目详细说明文档请移步GitBook：[https://mason-3.gitbook.io/uav-fpv-cockpit](https://mason-3.gitbook.io/uav-fpv-cockpit)
-
-## 开发者社区
-QQ群：217107609
+- Detailed compiling instructions
+- Detailed wiring insturctions in english
+- Alternative cockpit screen layouts
+- Template for mounting main OLED for adaptation to other models
