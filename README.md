@@ -43,3 +43,6 @@ HUD:
 
 <img width="1145" height="534" alt="Screenshot 2026-07-01 202142" src="https://github.com/user-attachments/assets/5274445c-a1e2-4446-8c77-7b8b46851932" />
 
+Wiring:
+
+<img width="1619" height="971" alt="f7747981-b990-42b9-abdf-2ae96eff45c6" src="https://github.com/user-attachments/assets/7ad21fff-1822-44da-a19b-87eabe07fa5e" />
