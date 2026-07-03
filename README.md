@@ -22,8 +22,13 @@ To come:
 - Alternative cockpit screen layouts - DONE SEE SCREENSHOT BELOW
 - Template for mounting main OLED for adaptation to other models
 
+**main_screen_alternative:**
+
 <img width="2615" height="2154" alt="PXL_20260702_105902713" src="https://github.com/user-attachments/assets/da9de6ee-6720-4794-9728-9a77d8db5ebb" />
 
+**main_screen_new_att**
+
+<img width="686" height="911" alt="PXL_20260703_042557531" src="https://github.com/user-attachments/assets/9ae6d709-f2b6-48ba-826c-93d6f81ce8d5" />
 
 Note: use v 8.3.11 of LVGL, code will not compile with later versions
 
