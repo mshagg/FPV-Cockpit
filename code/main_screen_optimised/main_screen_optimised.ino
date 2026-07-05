@@ -1,6 +1,6 @@
 #include "esp_arduino_version.h"
 #include <LilyGo_AMOLED.h>      //To use LilyGo AMOLED series screens, please include <LilyGo_AMOLED.h>
-#include <LV_Helper.h>
+//#include <LV_Helper.h>
 #include <Arduino.h>
 #include <Adafruit_GFX.h>
 #include <MAVLink.h>
